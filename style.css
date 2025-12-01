@@ -23,18 +23,21 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
-
 .profile-pic {
-    width: 160px;
-    height: 160px;
+    width: 190px;
+   
+    height: 210px;
     border-radius: 50%;
     border: 3px solid #00a6ff;
     box-shadow: 0 0 15px #009dff;
     transition: 0.3s ease-in-out;
+    object-fit: cover;
+    object-position: center;
+   
 }
 
 .profile-pic:hover {
-    transform: scale(1.08);
+    transform: scale(1.13);
     box-shadow: 0 0 25px #00b7ff;
 }
 

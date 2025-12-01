@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #0d1117;
+    color: #e6e6e6;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(20, 25, 35, 0.75);
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(0, 140, 255, 0.25);
+    backdrop-filter: blur(8px);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid #00a6ff;
+    box-shadow: 0 0 15px #009dff;
+    transition: 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px #00b7ff;
+}
+
+.name {
+    color: #00aaff;
+    margin-top: 15px;
+}
+
+.tagline {
+    font-size: 1.1em;
+    opacity: 0.8;
+}
+
+
+.section h2 {
+    border-left: 4px solid #009dff;
+    padding-left: 10px;
+    color: #77c7ff;
+    text-shadow: 0 0 10px rgba(0, 150, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+
+.skills-list,
+.section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-list li,
+.section ul li {
+    background: #111827;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border-left: 4px solid #009dff;
+    transition: 0.25s;
+}
+
+.skills-list li:hover,
+.section ul li:hover {
+    background: #1a2333;
+    transform: translateX(4px);
+}
+
+
+a {
+    color: #33b7ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5fc9ff;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    opacity: 0.7;
+    font-size: 0.9em;
+}
